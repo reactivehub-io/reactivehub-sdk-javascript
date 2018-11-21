@@ -1,0 +1,25 @@
+{
+  "name": "reactivehub-sdk-javascript",
+  "version": "1.0.0",
+  "description": "reactivehub.io Javascript SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "sdk",
+    "client",
+    "reactive",
+    "events"
+  ],
+  "author": "@reacitvehub",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
