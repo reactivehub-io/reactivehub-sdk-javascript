@@ -4,9 +4,23 @@ The reactivehub.io Javascript SDK implements the methods to publish in [Event](h
 
 ## Installation
 
-``` TODO ```
+Via ```npm```
+
+``` $ npm i reactivehub-sdk-javascript```
 
 ## Usage
+
+Config
+
+```
+const sdk = require('reactivehub-sdk-javascript');
+const client = sdk.buildConfig('<team-name>', '<client-key>','<client-secret>');
+```
+
+Publish events
+```
+const result =  sdk.sendEvent(client, '<event-name>', {name: 'Payload'});
+```
 
 ## How to contribute
 We'd love to accept your patches and contributions to this project. There are just a few small guidelines you need to follow.
@@ -23,6 +37,7 @@ All submissions, including submissions by project members, require review. We us
 
 The contents of this repository is licensed under the
 [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
 
 
 
