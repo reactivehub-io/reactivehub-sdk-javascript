@@ -1,6 +1,6 @@
 {
   "name": "reactivehub-sdk-javascript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "reactivehub.io Javascript SDK",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,8 @@
     "axios": "^0.18.0"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
