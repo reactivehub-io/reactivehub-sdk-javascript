@@ -19,7 +19,7 @@ const client = sdk.buildConfig('<team-name>', '<client-key>','<client-secret>');
 
 Publish events
 ```
-const result =  sdk.sendEvent(client, '<event-name>', {name: 'Payload'});
+const result =  sdk.publishEvent(client, '<event-name>', {name: 'Payload'});
 ```
 
 ## How to contribute
