@@ -6,7 +6,7 @@ The reactivehub.io Javascript SDK implements the methods to publish in [Event](h
 
 Via ```npm```
 
-``` $ npm i reactivehub-sdk-javascript```
+``` $ npm i @reactivehub/sdk-javascript```
 
 ## Usage
 
