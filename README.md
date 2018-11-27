@@ -6,20 +6,20 @@ The reactivehub.io Javascript SDK implements the methods to publish in [Event](h
 
 Via ```npm```
 
-``` $ npm i reactivehub-sdk-javascript```
+``` npm i -S @reactivehub/sdk-javascript```
 
 ## Usage
 
 Config
 
 ```
-const sdk = require('reactivehub-sdk-javascript');
-const client = sdk.buildConfig('<team-name>', '<client-key>','<client-secret>');
+const rhub = require('reactivehub-sdk-javascript');
+const client = rhub.buildConfig('<team-name>', '<client-key>','<client-secret>');
 ```
 
 Publish events
 ```
-const result =  sdk.sendEvent(client, '<event-name>', {name: 'Payload'});
+const result =  rhub.publishEvent(client, '<event-name>', {name: 'Payload'});
 ```
 
 ## How to contribute

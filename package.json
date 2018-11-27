@@ -1,19 +1,32 @@
 {
-  "name": "reactivehub-sdk-javascript",
-  "version": "1.0.2",
-  "description": "reactivehub.io Javascript SDK",
+  "name": "@reactivehub/sdk-javascript",
+  "version": "1.0.0",
+  "description": "Reactivehub's sdk ",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactivehub-io/reactivehub-sdk-javascript.git"
   },
   "keywords": [
+    "reactivehub",
+    "rhub",
     "sdk",
-    "client",
-    "reactive",
-    "events"
+    "javascript",
+    "events",
+    "event-driven"
   ],
-  "author": "@reacitvehub",
+  "author": "Reactivehub",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reactivehub-io/reactivehub-sdk-javascript/issues"
+  },
+  "homepage": "https://github.com/reactivehub-io/reactivehub-sdk-javascript#readme",
   "dependencies": {
     "axios": "^0.18.0"
   },
