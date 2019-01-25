@@ -18,7 +18,7 @@ client.initialize({
     namespace: '<team-name>',
     clientKey: '<client-key>',
     clientSecret: '<client-secret>',
-})
+});
 ```
 
 Publish events
