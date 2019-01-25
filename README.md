@@ -13,13 +13,17 @@ Via ```npm```
 Config
 
 ```
-const rhub = require('reactivehub-sdk-javascript');
-const client = rhub.buildConfig('<team-name>', '<client-key>','<client-secret>');
+const client = require('reactivehub-sdk-javascript');
+client.initialize({
+    namespace: '<team-name>',
+    clientKey: '<client-key>',
+    clientSecret: '<client-secret>',
+})
 ```
 
 Publish events
 ```
-const result =  rhub.publishEvent(client, '<event-name>', {name: 'Payload'});
+const result =  client.publishEvent('<event-name>', {key: 'keyValue', ... });
 ```
 
 ## How to contribute
