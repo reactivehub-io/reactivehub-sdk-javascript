@@ -1,6 +1,6 @@
 {
   "name": "@reactivehub/sdk-javascript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Reactivehub's sdk ",
   "main": "index.js",
   "directories": {
