@@ -7,7 +7,10 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch-release": "npm version patch && npm publish",
+    "minor-release": "npm version minor && npm publish",
+    "major-release": "npm version major && npm publish"
   },
   "repository": {
     "type": "git",
