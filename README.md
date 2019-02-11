@@ -13,7 +13,7 @@ Via ```npm```
 Config
 
 ```
-const client = require('reactivehub-sdk-javascript');
+const client = require('@reactivehub/sdk-javascript');
 client.initialize({
     namespace: '<team-name>',
     clientKey: '<client-key>',
